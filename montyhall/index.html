@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Парадокс</title>
+        <style>
+            span {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Парадокс Монти Холла</h1>
+        <div>
+            Количество дверей:
+            <input type="text" value="3" id="doors" />
+        </div>
+        <div>
+            Менять?
+            <input type="checkbox" value="true" name="switch" id="shouldSwitch">
+        </div>
+        <div>
+            Количество попыток:
+            <input type="text" value="100" id="tries" />
+        </div>
+        <input type="button" id="start" value="Run" />
+        <script src="app.js"></script>
+    </body>
+</html>
