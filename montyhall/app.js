@@ -43,7 +43,7 @@ const startGame = (doorsCount, shouldSwitch, iterations = 1) => {
     const results = new Array(iterations).fill().map(() => run(doorsCount, shouldSwitch));
     const wins = results.filter(result => !!result).length;
 
-    console.log(`Percentage of wins ${(wins / iterations) * 100}%`);
+    console.log(`Percentage of wins ${(wins / iterations) * 100}% if ${shouldSwitch ? 'switched' : 'not switched'}`);
 };
 
 document.querySelector('#start').addEventListener('click', () => {
