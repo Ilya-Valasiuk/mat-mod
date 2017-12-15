@@ -1,4 +1,4 @@
-To run locally be aware that you have yarn
+To run locally be sure that you have yarn 
 
 # To Start
 - run `yarn` - it will install all modules
